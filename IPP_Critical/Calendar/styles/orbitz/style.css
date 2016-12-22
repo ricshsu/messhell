@@ -1,0 +1,93 @@
+.calendarCalendar {
+	border: 1px solid #77BBFF;
+	background-color: #CCEEFF;
+}
+.calendarTitle {
+	font: 13px bold Arial;
+	color: #333333;
+	text-align: center;
+	font-weight: bolder;
+	background-color: #99BBFF;
+	padding-top:4px;
+	padding-bottom:4px;
+	text-transform: uppercase;
+}
+.calendarArrowLeft {
+	font:1px Tahoma;
+	cursor:pointer; cursor:hand;
+	background-image: url('left.gif');
+	background-repeat: no-repeat;
+	background-position:center center;
+	height: 22px;
+	width: 20px;
+}
+.calendarArrowRight{
+	font:1px Tahoma;
+	cursor:pointer; cursor:hand;
+	background-image: url('right.gif');
+	background-repeat: no-repeat;
+	background-position:center center;
+	height: 22px;
+	width: 20px;
+}
+
+.calendarMonth {
+	background-color: White;	
+}
+.calendarMonthTitle {
+	font: bold 12px Arial;
+	text-align:center;
+	background-color: #AADDFF;
+	height: 16px;
+	text-transform: uppercase;
+	color: Black;
+}
+.calendarDayName {
+	font:bold 10px Arial;
+	letter-spacing: 1.1;
+	color: Gray;
+	text-align:center;
+	padding:2px;
+	text-transform: uppercase;
+}
+.calendarDay {
+	font: 11px Arial;
+	color:#2266cc;
+	text-align:center;
+	text-decoration:underline;
+	border:1px solid #FFFFFF;
+	cursor:pointer; cursor:hand;
+}
+.calendarDayToday {
+	font: bold 11px Arial;
+	color: #1177FF;
+	text-align:center;
+	cursor:pointer; cursor:hand;
+	border:1px solid #1177FF;
+	background-color: #CCEEFF;
+}
+.calendarDayDisabled {
+	font: 11px Arial;
+	color:#999999;
+	text-align:center;
+	border:1px solid #FFFFFF;
+}
+.calendarDaySelected {
+	font: bold 11px Arial;
+	color: #CCEEFF;
+	text-align: center;
+	background-color:#77AAFF;
+	cursor:hand; cursor:pointer;
+	border:1px solid #CCEEFF;
+}
+.calendarDaySpecial {
+	font:bold 11px Arial;
+	color:#004499;
+	text-align:center;
+	cursor:hand; cursor:pointer;
+	border:1px solid #D0F0FF;
+}
+.calendarDatePickerButton {
+	vertical-align:bottom;
+	cursor:pointer; cursor:hand;
+}

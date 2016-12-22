@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Parameter_Set>
+  <Param_List>
+    <file_path>\\Nypcb\\C823\\Non-Intel QV Upload Data\\</file_path>
+    <Movefile_path>\\Nypcb\\C823\\Non-Intel QV Upload Data\\Finish\\</Movefile_path>
+    <RootPath>Non-Intel QV Upload Data</RootPath>
+    <db_driver>server=PCBDB39;database=EDA;user=EDAAdmin;password=eda2695;</db_driver>
+  </Param_List>
+</Parameter_Set>

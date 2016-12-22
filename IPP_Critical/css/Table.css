@@ -1,0 +1,51 @@
+﻿/* 一般只有一個欄位的表格 */
+
+.Table_One
+{
+    border-style:solid;
+    border-color:Gray;
+    border:1px;
+    background-color:#ffffff;
+}
+
+.Table_One_Title
+{
+    border-style:solid;
+    border-color:Gray;
+    border:0px;
+    height:30px;
+    background-image:url(Table/Table_One_Title.jpg);
+    background-repeat:repeat-x;
+}
+
+
+/* 員工管理專區 內文表格 */
+
+.Table_Two
+{
+    border-style:solid;
+    border-color:Gray;
+    border:0px;
+    background-color:#ffffff;
+}
+
+.Table_Two_Title
+{
+    border-style:solid;
+    border-color:Gray;
+    border:0px;
+    height:28px;
+    background-image:url(Table/Table_Two_Title.jpg);
+    background-repeat:repeat-x;
+}
+
+.Table_Two_Body
+{
+    border-left: 1px none #83BBD9;
+    border-right: 1px none #83BBD9;
+    border-bottom: 1px none #83BBD9;
+    border-top-width:0px;
+    width: 1065px;
+    border-top-style: none;
+    border-top-color: inherit;
+}

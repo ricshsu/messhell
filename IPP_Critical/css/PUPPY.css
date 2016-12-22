@@ -1,0 +1,156 @@
+﻿/* 字型 */
+.Font_S_G
+{
+    font-size:small;
+    color:#016017;
+}
+.Font_S_G1
+{
+    font-size:small;
+    color:#50c94a;
+}
+
+
+.Font_S_Ga
+{
+    font-size:small;
+    color:#818181;
+    text-decoration:none;
+}
+
+.Font_11_Ga
+{
+    font-size:small;
+    color:#818181;
+    text-decoration:none;
+}
+
+.Font_S_Ga:hover
+{
+    font-size:small;
+    color:#818181;
+    text-decoration:underline;
+}
+
+.Font_S_GaNh
+{
+    font-size:small;
+    color:#818181;
+    text-decoration:none;
+    LINE-HEIGHT: 20px
+}
+
+.Font_S_R
+{
+    font-size:small;
+    color:#a72901;
+}
+.Font_S_B
+{
+    font-size:small;
+    color:#000000;
+}
+
+
+
+.Font_S_BB
+{
+    font-size:small;
+    color:#237ad5;
+    text-decoration: none ; 
+}
+.Font_S_BB:hover
+{
+    color:#237ad5;
+    text-decoration:underline;
+}   
+
+
+.Font_M_G
+{
+    font-size:11pt ;
+    color:#016017;
+}
+
+.Font_M_GII
+{
+    font-size:11pt ;
+    font-weight:bold ;
+    color:#016017;
+}
+
+.Font_11_Blue
+{
+    font-size:11pt;
+    color:#075ebe;
+}
+.Font_11_Gree
+{
+    font-size:11pt;
+    color:#308631;
+}
+.Font_M_B_B
+{
+    font-size:medium ;
+    font-weight:bold ;
+    color:#029b0f;
+    text-decoration:none;
+}
+.Font_M_B_B:hover
+{
+    font-size:medium ;
+    font-weight:bold ;
+    color:#029b0f;
+    text-decoration:none;
+}
+
+
+
+/*Top MENU*/
+.Font_TopMENU
+{
+    font-size:11pt;
+    color:#951433;
+    text-decoration: none ; 
+    font-weight:bold;
+}
+.Font_TopMENU:hover
+{
+    color:#768c39;
+    text-decoration:none;
+    font-weight:bold;
+}  
+
+
+
+/*　輸入方塊　*/
+.Txt_I
+{
+    border-width:1px;
+    background-color:#e6ebd5;
+    border-color:#32a332;
+    border-style:solid;
+}
+    
+    
+/* 商品瀏覽的方塊 */
+.ArticleBack
+{
+    border:0px;
+    border-style:solid;
+    border-color:#dcd9d3;
+    /*background-color:#ffffff;*/
+    background-image:url(../index/Image/Page/Article_Img_Back1.jpg);
+    text-align:center ;
+    vertical-align:middle;
+}
+.ArticleBack:hover
+{
+    border:0px;
+    border-style:solid;
+    border-color:#dcd9d3;
+    background-color:#e5efc1;
+    background-image:url(../index/Image/Page/Article_Img_Back2.jpg);
+    text-align:center ;
+    vertical-align:middle;
+}

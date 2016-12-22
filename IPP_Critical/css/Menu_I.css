@@ -1,0 +1,79 @@
+﻿/*　主要的選項樣式   Menu1　*/
+
+.Menu
+{
+    border:none;
+    height:36px;
+    background-image: url(Menu_I/Menu_Back.jpg);
+}
+
+/*　主要的選項樣式   StaticMenuItemStyle　*/
+.Menu_Master
+{
+    border:none;
+    padding:0px 2px 0px 5px;
+    font-size:11pt;
+    font-weight:bold ;
+    color:White ;
+    height:36px;
+    color:#ffffff;
+}
+
+/*　主要的選項樣式　滑鼠移過   StaticHoverStyle　*/
+.Menu_Master_Hover
+{
+    border:none;
+    height:36px;
+    font-weight:bold ;
+    color:Yellow ;
+}
+
+/*　動態選項樣式   DynamicMenuItemStyle　*/
+.Menu_Sub
+{
+    border:none;
+    border-top:none;
+    background:#000000 url(Menu_I/Menu_Sub_Back.jpg);
+    font-size:10pt;
+    color:#ffffff;
+    padding:5px 10px 5px 10px ;
+    height:35px;
+}
+
+/*　動態選項樣式　滑鼠移過   DynamicHoverStyle　*/
+.Menu_Sub_Hover
+{
+    border:none;
+    height:35px;
+    color:Yellow;
+    font-weight:bold ;
+}
+
+
+
+
+/*　管理介面　menu選單表格的底圖*/
+.Menu_TD_Top_Back
+{
+    border:none;
+    height:80px;
+    background-image: url(Menu_I/SW_Top_Banner.jpg);
+    background-repeat:no-repeat ;
+}
+
+.Menu_TD_Down_Back
+{
+    border:none;
+    background-image: url(Menu_I/SW_Down_Back.jpg);
+    background-repeat:no-repeat ;
+    height:60%;
+}
+
+.Menu_TD_CopyRight_Back
+{
+    border:none;
+    background-image: url(Menu_I/SW_Down_CopyRight_Back.jpg);
+    background-position:bottom ;
+    background-repeat:repeat-x;
+    width:100%;
+}

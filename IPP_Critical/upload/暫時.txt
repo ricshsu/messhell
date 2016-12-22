@@ -1,0 +1,182 @@
+-eSPC SQC Daily Mail
+1. 依日期/客戶撈Data
+2. Fail Rate, Big Fail,Raw Data Table
+5. 趨勢圖
+6. 轉HTML格式
+7. Mail連結eSPC
+8. By廠/類別設定Mail收件名單
+9. 警示異常標準預設改為OOS,OOC
+10. Export功能
+11. Mail異常機制
+12. Mail寄信排程
+-eSPC SQC計算管制上下限
+1. 查詢介面及防呆
+2. 料號取交集聯集功能
+3. 試算撈Data
+4. Outlier功能
+5. 計算管制上下限及統計資訊
+6. 新增管制上下限使用的Chart模組
+7. 試算資料呈現
+8. 新增Chart Setting功能
+-eSPC SQC資料查詢
+1. 統計資訊新增規格資訊
+2. 多選功能改善
+3. Raw Data欄位整理(單多選含Export)
+-品質系統
+1. LAB系統 規格維護介面新增權限控管
+2. LAB系統 每日上傳XML檔地皮移轉及模擬權限
+3. 協助處理SQC, FA, CTF異常
+
+
+
+本月工作項目：
+1.LandShape專案
+(1)完成新版Land Shape功能改版
+：所有Tableau功能參數，改由單一頁面參數切換，將原先多個by Lot/by Daily/by Weekly/by Monthly的分散查詢功能，完成整合
+2.BumpHigh專案
+(1)完成BumpHigh功能新增
+：利用Tableau，完成Bump High多項量測項目的資料查詢功能(Lot/Daily/Weekly/Monthly)，目前已提供給User測試
+
+
+
+Imports Dundas.Charting.WebControl 
+
+... 
+Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load 
+Dim i As Integer ' Add a series. Chart1.Series.Add("Series1") 
+' Set the chart types of the series. Chart1.Series("Series1").Type = SeriesChartType.Bar 
+' Set the chart type of the series. Note that by default a series is plotted 
+' in the "Default" chart area, and if this chart area does not exist then the series will 
+' use the first available chart area. Chart1.Series("Series1").ChartArea = "Default" 
+' Add data to Series1. Note that we are only setting the Y values, 
+' so X values will automatically be 0, and data will be plotted using the 
+' index of data points in the data point collection. 
+For i = 0 To 4 Chart1.Series("Series1").Points.AddY(i + 1) Next End Sub
+
+
+
+https://support.microsoft.com/zh-tw/kb/175500/zh-tw
+Imports Dundas.Charting.WebControl ... Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load Dim i As Integer ' Add a series. Chart1.Series.Add("Series1") ' Set the chart types of the series. Chart1.Series("Series1").Type = SeriesChartType.Bar ' Set the chart type of the series. Note that by default a series is plotted ' in the "Default" chart area, and if this chart area does not exist then the series will ' use the first available chart area. Chart1.Series("Series1").ChartArea = "Default" ' Add data to Series1. Note that we are only setting the Y values, ' so X values will automatically be 0, and data will be plotted using the ' index of data points in the data point collection. For i = 0 To 4 Chart1.Series("Series1").Points.AddY(i + 1) Next End Sub
+
+123123
+
+123
+
+
+
+系統分析高級工程師之主要工作目標為創建及導入EDA相關系統平台，並透過DW資料匯整
+提供統計分析資料標準化及應用化，協助廠內RD/YIP/QC更易於了解問題點進而改善提高製程良率。
+
+
+資訊工程師之主要工作目標乃依企業組織規劃執行工作內容，並協助廠處課主管進行相關EDA系統開發，並透過與廠內會議溝通討論，進而更易於了解需求點以提高開發效率
+
+
+ListBoxSort(lb_weekSource, False)
+
+
+    Public Class DecComparer
+        Implements IComparer
+        Dim myComapar As CaseInsensitiveComparer = New CaseInsensitiveComparer()
+        Public Function Compare(ByVal x As Object, ByVal y As Object) As Integer Implements IComparer.Compare
+            Return myComapar.Compare(y, x)
+        End Function
+    End Class
+
+    Private Sub ListBoxSort(ByVal lbx As ListBox, ByVal DESC As Boolean)
+        '利用sortedlist 類為listbox排序 
+        Dim slist As New SortedList()
+        '引用SortedList類?，實作IComparer
+        Dim mySort As SortedList = New SortedList(New DecComparer())
+        For i As Integer = 0 To lbx.Items.Count - 1
+            If DESC = False Then
+                '將listbox內容逐項複製到sortedlist物件中
+                If slist(lbx.Items(i).Text()) Is Nothing Then
+                    slist.Add(lbx.Items(i).Text, lbx.Items(i).Value)
+                End If
+            Else
+                '將listbox內容逐項複製到sortedlist物件中
+                If mySort(lbx.Items(i).Text()) Is Nothing Then
+                    mySort.Add(lbx.Items(i).Text, lbx.Items(i).Value)
+                End If
+            End If
+        Next
+
+        lbx.Items.Clear()
+        '清空原listbox
+
+        If DESC = False Then
+            For Each obj As DictionaryEntry In slist
+                Dim myit As New ListItem()
+                myit.Text = obj.Key.ToString()
+                myit.Value = obj.Value.ToString()
+                '再重新將sortlist集合複製回listbox，這樣，複製回來的陣列是按值排序過的
+                lbx.Items.Add(myit)
+            Next
+        Else
+            For Each obj As DictionaryEntry In mySort
+                Dim myit As New ListItem()
+                myit.Text = obj.Key.ToString()
+                myit.Value = obj.Value.ToString()
+                '再重新將sortlist集合複製回listbox，這樣，複製回來的陣列是按值排序過的
+                lbx.Items.Add(myit)
+            Next
+        End If
+    End Sub
+
+84
+
+
+
+
+本月完成工作項目：
+   if (yl.sf == true & yl.lotMerge == false)
+        {
+            tempSQL = tempSQL.Replace("WB_BinCode_Daily_Lot_NotMerge", "vw_WB_BinCode_Daily_Lot_NotMerge_SF");
+        }
+
+If Cb_SF.Checked = True And cb_Lot_Merge.Checked = False Then
+            tempSQL = tempSQL.Replace("WB_BinCode_Daily_Lot_NotMerge", "vw_WB_BinCode_Daily_Lot_NotMerge_SF")
+        End If
+
+
+
+
+1.ET Data專案
+(1)完成Cp、Cpk與Box Plot相關計算之共用模組功能開發。
+(2)於EDA共用統計模組，新增EXCEL內之NORMINV函數，主要依據正態分佈概率密度函數產生正態分佈(normal distribution)亂數。
+2.eSAS專案
+(1)Raw Data輸出格式變更，主要將各子系統RawData資料，以橫向排列方式，輸出至Excel內，提供給品管單位方便驗證相關數據，並提供給客戶。
+3.PPS專案
+(1)完成Phase I之動態資料查詢，根據使用者選擇特定查詢條件後，提供彙整功能以顯示補償值相關參數及資料匯出功能。
+4.eProject專案
+(1)完成各世代下的料號管理功能評估，在原Project、Stage、Step管理架構下，將各世代下的料號納入管理，藉由eProject平台，將研發單位所定的各項工作流程所需產出的相關文件，能夠統一保存，避免散落在各自負責人的電腦內，藉此集中管理。
+
+
+
+1.eSPC系統
+-IPP多料號合併計算管制上下線 
+a.介面修改
+b.查詢顯示各料號共通項目
+c.多料號資料查詢
+d.修正選擇最近批數功能異常
+e.套用計算管制上下線功能
+-IPP Daily OOC Alarm
+a.新增回覆率僅Trigger OOC異常項目原則
+b.異常項目歸屬的廠別判定由量測廠改為投料廠
+c.eSPC Daily Alarm報表同步配合
+-導入SQC
+a.資料查詢介面
+b.Mean Chart–Tool list
+ 
+2.品質系統
+-IPP系統
+a.B料號規格設定異常
+b.OOC Summary報表異常
+c.修正RFC表單僅連結IPP,KPP項目異常, 虛擬項目無法連結異常, 欄位寬度不足異常
+d.料號設定異常
+e.新料號預設CPK設定1.06
+-CTF系統
+a.QV轉置項目名稱避開雙引號關鍵字異常
+-SQC系統
+a.現場電腦HG23手動輸入異常
+b.手動輸入無法選擇到已建立廠別異常釐清

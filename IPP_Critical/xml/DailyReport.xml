@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ROOT>
+
+  <COMPANY>
+    
+    <CPU_ITME>LotCount</CPU_ITME>
+    <CPU_ITME>InLine Yield</CPU_ITME>
+    <CPU_ITME>O/S Yield</CPU_ITME>
+    <CPU_ITME>Bump Yield</CPU_ITME>
+    <CPU_ITME>FVI Yield</CPU_ITME>
+    <CPU_ITME>IPQC</CPU_ITME>
+    <CPU_ITME>4W Open</CPU_ITME>
+    <CPU_ITME>4W Short</CPU_ITME>
+    <CPU_ITME>4W X2</CPU_ITME>
+    <CPU_ITME>4W LE</CPU_ITME>
+    <CPU_ITME>X6 CAW</CPU_ITME>
+    <CPU_ITME>Total Yield</CPU_ITME>
+
+    <CS_ITME>LotCount</CS_ITME>
+    <CS_ITME>InLine Yield</CS_ITME>
+    <CS_ITME>O/S Yield</CS_ITME>
+    <CS_ITME>Bump Yield</CS_ITME>
+    <CS_ITME>FVI Yield</CS_ITME>
+    <CS_ITME>4W Open</CS_ITME>
+    <CS_ITME>4W Short</CS_ITME>
+    <CS_ITME>4W X2</CS_ITME>
+    <CS_ITME>4W Land</CS_ITME>
+    <CS_ITME>Total Yield</CS_ITME>
+  </COMPANY>
+  
+</ROOT>

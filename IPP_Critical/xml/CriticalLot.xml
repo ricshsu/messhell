@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ROOT>
+  
+  <RA>HSS</RA>
+  <RA>Surface Energy(Contact Angle/MI)</RA>
+  <RA>Thermal Shock</RA>
+
+  <Bump>Bump height U1</Bump>
+  <Bump>CAW U1(Positive)</Bump>
+  <Bump>CAW U1(Negative)</Bump>
+  
+  <Ni_Pd_Au>Ni Thickness</Ni_Pd_Au>
+  <Ni_Pd_Au>Pd Thickness</Ni_Pd_Au>
+  <Ni_Pd_Au>Au Thickness</Ni_Pd_Au>
+  
+  <Ink>White Ink Thickness</Ink>
+  <Ink>Black Ink Thickness</Ink>
+
+  <CTF>Pre-solder height(mean BH)</CTF>
+
+  <SQC>Intel 總板厚 136-178</SQC>
+  <SQC>Core thickness 75-95</SQC>
+  <SQC>Btm pad to via alignment</SQC>
+  <SQC>Top pad to via alignment</SQC>
+  <SQC>Bottom via recess</SQC>
+  <SQC>PAD-(CO面Ball Pad大小)307↑</SQC>
+  <SQC>PAD-(SO面Ball Pad大小)351↑</SQC>
+
+</ROOT>

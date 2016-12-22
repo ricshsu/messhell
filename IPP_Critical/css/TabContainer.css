@@ -1,0 +1,86 @@
+﻿/* AJAX - TabContainer */
+.tabContainer .ajax__tab_header {/*切換區的區塊*/
+ font-family:verdana,tahoma,helvetica;
+ font-size:11px;
+ background-image: url(TabContainer/TopBack.jpg);
+ background-repeat: repeat-x;
+ background-position: bottom;
+ text-align: left;
+}
+
+.tabContainer  .ajax__tab_outer {/*切換鈕-底*/
+ height:37px;
+ background-image: url(TabContainer/BT_I.jpg);
+ background-repeat: no-repeat;
+ background-position: left;
+ width: 184px;
+ margin-right: 1px;
+ text-align: left;
+}
+.tabContainer  .ajax__tab_outer span{/*切換紐-文字*/
+ font-family: "新細明體";
+ font-size: 15px;
+ font-weight: bold;
+ padding-left: 20px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ display: block;
+ text-align: left;
+ color: #999999;
+}
+.tabContainer  .ajax__tab_hover .ajax__tab_outer {/*切換鈕--滑鼠滑過*/
+ height:37px;
+ background-image: url(TabContainer/BT_II.jpg);
+ background-repeat: no-repeat;
+ background-position: left;
+ width: 184px;
+ margin-right: 1px;
+ text-align: left;
+}
+.tabContainer  .ajax__tab_hover .ajax__tab_outer span{/*切換紐-文字-滑鼠滑過*/
+ font-family: "新細明體";
+ font-size: 15px;
+ font-weight: bold;
+ padding-left: 20px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ display: block;
+ text-align: left;
+ color: #2271FB;
+}
+.tabContainer  .ajax__tab_active .ajax__tab_outer {/*切換鈕-底-顯示中*/
+ height:37px;
+ background-image: url(TabContainer/BT_II.jpg);
+ background-repeat: no-repeat;
+ background-position: left;
+ width: 184px;
+ margin-right: 1px;
+ text-align: left;
+}
+.tabContainer  .ajax__tab_active .ajax__tab_outer  span{/*切換紐-文字-顯示中*/
+ font-family: "新細明體";
+ font-size: 15px;
+ font-weight: bold;
+ padding-left: 20px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ display: block;
+ text-align: left;
+ color: #333333;
+}
+.tabContainer  .ajax__tab_body {/*內容*/
+ font-family:verdana,tahoma,helvetica;
+ font-size:10pt;
+ padding:8px;
+ border-right-width: 1px;
+ border-bottom-width: 1px;
+ border-left-width: 1px;
+ border-right-style: solid;
+ border-bottom-style: solid;
+ border-left-style: solid;
+ border-right-color: #C6C6C6;
+ border-bottom-color: #C6C6C6;
+ border-left-color: #C6C6C6;
+}
+
+

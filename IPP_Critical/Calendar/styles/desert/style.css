@@ -1,0 +1,99 @@
+	.calendarCalendar {
+		border:1px solid #d2cfbd;
+		background-image:url('background.gif');
+		text-align:left;
+	}
+	.calendarTitle {
+		font:bold 12px Tahoma;
+		color:#928f7e;
+		text-align:center;
+		padding-bottom:1px;
+		padding-top:5px;
+	}
+	.calendarArrowLeft {
+		font:12px Tahoma;
+		cursor:pointer; cursor:hand;
+		background-image:url('arrow_left.gif');
+		background-position:center center;
+		background-repeat:no-repeat;
+		height:10px;
+		width:20px;
+		margin-left:3px;
+	}
+	.calendarArrowRight{
+		font:12px Tahoma;
+		cursor:pointer; cursor:hand;
+		background-image:url('arrow_right.gif');
+		background-position:center center;
+		background-repeat:no-repeat;
+		height:10px;
+		width:20px;
+		margin-right:3px;
+	}
+	.calendarMonth {
+		background-image:url('background_month.gif');
+		background-repeat:no-repeat;
+		background-position:center center;
+	}
+	.calendarMonthTitle {
+		font:bold 12px Tahoma;
+		text-align:center;
+		padding-top:5px;
+		padding-bottom:4px;
+		color:#928f7e;
+	}
+	.calendarDayName {
+		font:bold 11px Tahoma;
+		color:#928f7e;
+		text-align:center;
+	}
+	.calendarDay {
+		font:11px Tahoma;
+		color:#666666;
+		text-align:center;
+		cursor:pointer; cursor:hand;
+		height:18px;
+		width:22px;
+	}
+	.calendarDayToday {
+		font:11px Tahoma;
+		color:#666666;
+		text-align:center;
+		background-image:url('background_day_today.gif');
+		background-repeat:no-repeat;
+		background-position:center center;
+		cursor:pointer; cursor:hand;
+		height:18px;
+		width:22px;
+	}
+	.calendarDayDisabled {
+		font:11px Tahoma;
+		color:#d6d5b1;
+		text-align:center;
+		height:18px;
+		width:22px;
+	}
+	.calendarDaySelected {
+		font:11px Tahoma;
+		color:#666666;
+		text-align:center;
+		background-image:url('date_selected.gif');
+		background-repeat:no-repeat;
+		height:18px;
+		width:22px;
+	}
+	.calendarDaySpecial {
+		font:11px Tahoma;
+		color:#ffffff;
+		text-align:center;
+		background-image:url('background_day_special.gif');
+		background-position:center center;
+		background-repeat:no-repeat;
+		height:18px;
+		width:22px;
+	}
+	
+	.calendarDatePickerButton {
+		cursor:pointer; cursor:hand;
+		vertical-align:bottom;
+	}

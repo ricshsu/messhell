@@ -1,0 +1,93 @@
+﻿/*  樣式一  */
+.GridView_I
+{
+    border:1px;
+    border-style:solid;
+    background-color:#ffffff;
+    margin:2px 2px 2px 2px;
+}
+
+.GridView_Title_I
+{
+    background-image:url(GridView/GridView_Title_I.jpg);
+    background-color:Gray;
+    height:27px;
+    font-size:11pt;
+    color:#285f28;
+    font-weight:normal;
+}
+
+.GridView_Row_I
+{
+    background-image:url(GridView/GridView_Row_I.jpg);
+    height:26px;
+    font-size:10pt;
+    font-weight:normal;
+    color:#aca899;
+    text-decoration:none;
+    background-repeat:repeat-x;
+    background-position:bottom;    
+}
+
+.GridView_Row_I:hover
+{
+    background-image:none;
+    background-color:#f0fcce;
+    height:26px;
+    color:#285f28;
+    text-decoration:none;
+    font-size:10pt;
+    font-weight:normal;
+}
+
+
+/*  樣式二  */
+.GridView_II
+{
+    border:1px;
+    border-style:solid;
+    border-color:#83BBD9;
+    background-color:#ffffff;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+
+.GridView_Title_II
+{
+    background-image:url(GridView/GridView_Title_II.jpg);
+    background-color:Gray;
+    height:27px;
+    font-size:11pt;
+    color:#285f28;
+    font-weight:normal;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 5px;
+}
+
+.GridView_Row_II
+{
+    height:26px;
+    font-size:10pt;
+    font-weight:normal;
+    color:#aca899;
+    border:0px;
+    margin:0px 0px 0px 0px;
+    padding:0px 5px 0px 5px;
+    text-decoration:none;
+    line-height:19px;
+ 
+}
+
+.GridView_Row_II:hover
+{
+    background-image:none;
+    background-color:#deecf9;
+    height:26px;
+    color:#285f28;
+    border:0px;
+    margin:0px 0px 0px 0px;
+    padding:0px 5px 0px 5px;
+    text-decoration:none;
+    font-size:10pt;
+    font-weight:normal;
+}
